@@ -1,0 +1,375 @@
+
+
+:root{
+    --Playfair: "Playfair Display", serif;
+    --Quicksand: "Quicksand", sans-serif;
+    --Roboto: "Roboto", sans-serif; 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--Quicksand);
+}
+
+body{
+    line-height: 1.4;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+.container{
+    max-width: 1020px;
+    margin: 0 auto;
+    padding: 0 1.2rem;
+}
+
+/* header styling start */
+
+header{
+    height: 170vh;
+    background: "";
+    background-image: url(./image/header_back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+
+
+.navigation{
+ display: flex;
+ justify-content: space-between;
+}
+
+.navigation .logo a{
+    color: #fff;
+    font-size: 1rem;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    padding-top: 2.4rem;
+    font-family: var(--Playfair);
+    letter-spacing: 1px;
+
+}
+.navigation .logo{
+    /* border: 2px solid red; */
+    background-color: #fa5c65;
+    height: 74px;
+    width: 144px;
+    border-radius: 0 0 10px 10px;
+}
+
+.navbar-nav{
+    padding: 0.8rem 0 0.2rem 0;
+}
+
+.navbar-nav a{
+    text-transform: uppercase;
+    font-family: var(--Roboto);
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-weight: 500;
+    color: #263742;
+    text-decoration: none;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    transition: opacity 0.8s ease;
+}
+
+.navbar-nav a:hover{
+    opacity: 0.7;
+    text-shadow: 1px 1px 5px black;    
+}
+
+.navbar-nav .fab{
+    color: #fa5c65;
+}
+
+.banner{
+    display: block;
+    margin-top: 25%;
+}
+
+.banner-title{
+    font-size: 3rem;
+    /* font-family: var(--Playfair); */
+    line-height: 1.2;
+    text-transform: uppercase;
+    color: #314a5b;
+}
+
+span{
+    color: #fa5c65;
+    font-family: var(--Playfair);
+}
+
+.banner p{
+    font-size: 1.5rem;
+    line-height: 1.2;
+    color: #415665;
+    padding: 1.2rem 0;
+}
+
+.banner button{
+    margin-top: 1.2rem;
+    font-size: 1rem;
+    padding: 1.2rem 2.1rem;
+    border-radius: 0.4rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    outline: none;
+    color: #fff;
+    background-color: #fa5c65;
+    border: none;
+    cursor: pointer;
+
+}
+
+.banner button:hover{
+    box-shadow: 2px 2px 10px #26282c !important;
+}
+
+.portfolio{
+    padding: 4.5rem;
+}
+.snippets h1{
+    text-transform: uppercase;
+    color: #314a5b;
+    font-size: 1.9rem;
+    padding: 1.2rem 0;
+}
+.title span{
+    color: #fa5c65;
+    font-family: var(--Playfair);
+}
+
+.snippets .title p{
+    color: #9aa0ab;
+    font-size: 1rem;
+    padding: 1rem 0;
+}
+
+.snippets .title a{
+    text-decoration: none;
+    text-transform: uppercase  ;
+    color: #fa5c65;
+}
+.fa-arrow-right{
+    padding-left: 2rem;
+}
+
+.snippets{
+    margin: 1.2rem 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0.3rem;
+}
+.blog{
+    padding-bottom: 4.5rem;
+}
+
+.title2 img{
+    width: 30rem;
+
+}
+
+.title2 h1{
+    text-transform: uppercase;
+    color: #314a5b;
+    font-size: 1.9rem;
+    padding: 0.2rem 0;
+}
+
+.p{
+    padding: 1rem 0;
+
+}
+.p{
+    font-size: 1.2rem;
+    color: #314a5b;
+}
+.p1{
+    color: #a2a7b1;
+    padding: 0 0 3rem 0;
+    
+}
+
+.title2 a{
+    text-decoration: none;
+    text-transform: uppercase  ;
+    color: #fa5c65;
+}
+
+.portfolio-items{
+    margin: 1.2rem 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.3rem;
+    align-items: center;
+}
+.development-about-me{
+    padding: 1rem;
+    display: flex;
+}
+
+.development-about-me .image img{
+    width: 6.4rem;
+    border-radius: 50%;
+}
+
+.development-title{
+    padding: 1.2rem 0;
+}
+
+
+.development-title h1{
+    text-transform: uppercase;
+    color: #314a5b;
+    font-size: 1.9rem;
+    padding: 0.2rem 0;
+}
+
+.development-title p{
+    color: #a2a7b1;
+    padding: 0 0 1rem 0;
+}
+
+.image-title{
+    margin: 0 1rem;
+}
+
+.image-title h1{
+    text-transform: uppercase;
+    color: #314a5b;
+    font-size: 1.2rem;
+    padding: 0.2rem 0;
+}
+.image-title p{
+    font-size: 0.9rem;
+    color: #f0454c;
+}
+
+.item1{
+    font-size: 0.9rem !important;
+    color: #a2a7b1 !important;
+    margin-top: 0.4rem;
+}
+
+.developers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+}
+.development-items a{
+    text-decoration: none;
+    text-transform: uppercase  ;
+    color: #fa5c65;
+}
+
+.items{
+    display: flex;
+    width: 100%;
+    height: 9rem;
+    justify-content: right;
+    align-items: center;
+}
+
+footer{
+    padding: 2.3rem 0;
+    border-top: 2px solid #9aa0ab54;
+}
+
+.icons a{
+    color: #a2a7b1 !important;
+    padding: 0 0.3rem;
+}
+.footer-item p{
+    color: #a2a7b1 !important;
+
+}
+
+.footer-item{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* responsive */
+
+.navbar-nav i{
+    display: none;
+}
+
+@media only screen and (max-width: 800px){
+    header{
+        height: 170vh;
+        background: "";
+        background-image: url(./image/header_back.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        /* background-attachment: fixed; */
+    }
+    .navbar-nav a{
+        display: none;
+    }
+    .navbar-nav i{
+        display: block;
+    }
+    .banner-title{
+        font-size: 2rem;
+        padding-bottom: 1.5rem;
+    }
+    .snippets {
+        margin: 1.2rem 0;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 5rem;
+    }
+    .title p br{
+        display: none;
+    }
+    .title2 p br{
+        display: none;
+    }
+    .title2 img{
+        width: 100%;
+    }
+    .portfolio-items {
+        margin: 1.6rem 4rem;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 1.3rem;
+        align-items: center;
+    }
+    .developers {
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 1rem;
+        justify-content: center;
+    }
+    .development-about-me {
+        padding: 1rem 3.1rem;
+        display: flex;
+    }
+    .image-title p br{
+        display: none;
+    }
+    .development-title {
+        padding: 1.2rem 3.5rem;
+    }
+    .footer-item {
+        display: block;
+        text-align: center;
+
+    }
+    
+
+}
